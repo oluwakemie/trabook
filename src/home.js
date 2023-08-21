@@ -13,6 +13,7 @@ const Home = () => {
       <div className="md:px-[130px]  lg:px-[200px] px-[50px] py-5">
         {" "}
         <Navbar />
+        {/* <NavBar /> */}
       </div>
       <div className="md:px-[130px]  lg:px-[200px] px-[50px] py-5">
         <Hero />

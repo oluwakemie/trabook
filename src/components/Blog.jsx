@@ -8,10 +8,10 @@ const Blog = () => {
           Get update with <span className="text-[#FA7436]  ">latest blog</span>
         </h1>{" "}
       </div>
-      <div className="flex justify-center gap-7">
-        <div>
+      <div className="flex justify-center gap-7 flex-wrap ">
+        <div className="text-center">
           <img src="/Images/Image(7).png" alt="" className="w-[220px]" />
-          <h2 className="text-[15px] leading-5 mb-2">
+          <h2 className="text-[15px] leading-5 mb-2 ">
             The Amazing Difference a <br /> Year of Travelling .
           </h2>
           <p className="text-xs text-[#999]">July 27, 2021</p>
@@ -42,8 +42,8 @@ const Blog = () => {
         <img src="/Images/Slider.svg" alt="" />
       </div>
       <div className="flex justify-center ">
-        <div className="w-[700px] h-[200px] bg-[#FA7436] rounded-md flex flex-col items-center ">
-          <h1 className="font-bold text-[30px] text-center leading-none py-7 text-white mb-3">
+        <div className="w-[600px] bg-[#FA7436] rounded-md flex flex-col items-center md:w-[700px] ">
+          <h1 className="font-bold text-[30px] text-center leading-none py-7 text-white mb-3 ">
             Subscribe and get exclusive <br /> deals & offer
           </h1>
           <div className="w-[500px] max-w-[500px] relative  h-[68px]  px-1 ">

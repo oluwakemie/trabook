@@ -5,12 +5,12 @@ const Footer = () => {
     <>
       <div className="px-10 py-20 text-black flex flex-col gap-4 justify-around md:flex-row">
         <div className="text-black text-[15px]  leading-5 font-extralight  ">
-          <div className="flex gap-3">
+          <div className="flex gap-2 ">
             {" "}
             <h1 className="font-bold text-lg ">Trabook</h1>{" "}
-            <img src="/Images/Logo.svg" alt="logo" className="mb-9" />
+            <img src="/Images/Logo.svg" alt="logo"  />
           </div>
-          <p>
+          <p className="mt-5">
             Book your trip in minute, get full <br />
             Control for much longer.
           </p>
@@ -21,7 +21,6 @@ const Footer = () => {
             <img src="Images/twit.svg" alt="" />
           </div>
         </div>
-
         <div>
           <h1 className="font-bold mb-5">Company</h1>
           <div className=" text-[15px] leading-9 ">
@@ -41,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <h1 className="font-medium mb-5">More</h1>
+          <h1 className="font-bold mb-5">More</h1>
           <div className="font-thin text-[15px] leading-9 ">
             <p>Press Center</p>
             <p>Our Blog</p>

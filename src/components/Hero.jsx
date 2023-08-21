@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"; 
 import { motion } from "framer-motion";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -60,11 +60,11 @@ const div = () => {
       </div>
       <button
         type="button"
-        className="outline outline-1 px-6 py-2 mt-10 text-[#FA7436]"
+        className="outline outline-1 px-6 py-2 mt-10 text-[#FA7436] hover:bg-[#FA7436] hover:text-[white]"
       >
         Discover Now
       </button>
-      <div className="mt-[70px] px-4 flex justify-center items-center gap-5 bg-slate-100  max-w-[500px]  h-[94px]    md:mx-[110px]">
+      <div className="mt-[70px] px-4 flex flex-wrap justify-center items-center gap-5 bg-slate-100  max-w-[auto]  h-{auto}]    md:mx-[110px]">
         <div className=" ">
           <p className="font-bold text-sm flex gap-2 ">
             Location <img src="/Images/Vector.svg" alt="" />

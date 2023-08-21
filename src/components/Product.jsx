@@ -12,27 +12,39 @@ const Product = () => {
           <br /> safe vacation at a price you can afford.{" "}
         </p>
       </div>
-      <div className="flex flex-col items-center gap-10 justify-center mt-10 md:flex-row  ">
-        <div className="bg-white w-[250px]  shadow flex flex-col gap-3 px-3 py-5">
-          <img src="/Images/Group.svg" alt="" className="w-[20px] mt-5" />
-          <h1 className="text-[12px] font-bold">Sign Up</h1>
-          <p className="text-[10px] ">
+      <div className="flex flex-wrap gap-10 justify-center mt-10 md:flex-row  ">
+        <div className="bg-white w-[270px]  shadow flex flex-col gap-3 px-3 py-5">
+          <img
+            src="/Images/Group.svg"
+            alt=""
+            className="w-[20px] mt-5 mx-auto"
+          />
+          <h1 className="text-[12px] font-bold text-center">Sign Up</h1>
+          <p className="text-[10px] text-center">
             Completes all the work associated <br /> with planning and
             processing
           </p>
         </div>
-        <div className="bg-white w-[250px] shadow flex flex-col gap-3 px-3 py-5">
-          <img src="/Images/Group(1).svg" alt="" className="w-[20px] mt-5" />
-          <h1 className="text-[12px] font-bold">Worth of Money</h1>
-          <p className="text-[10px]">
+        <div className="bg-white w-[270px] shadow flex flex-col gap-3 px-3 py-5">
+          <img
+            src="/Images/Group(1).svg"
+            alt=""
+            className="w-[20px] mt-5 mx-auto"
+          />
+          <h1 className="text-[12px] font-bold text-center">Worth of Money</h1>
+          <p className="text-[10px] text-center">
             After successful access then book from <br /> exclusive deals &
             pricing
           </p>
         </div>
-        <div className="bg-white w-[250px]  shadow flex flex-col gap-3 px-3 py-5">
-          <img src="/Images/Group(2).svg" alt="" className="w-[20px] mt-5" />
-          <h1 className="text-[12px] font-bold">Exciting Travel</h1>
-          <p className="text-[10px] ">
+        <div className="bg-white w-[270px]  shadow flex flex-col gap-3 px-3 py-5">
+          <img
+            src="/Images/Group(2).svg"
+            alt=""
+            className="w-[20px] mt-5  mx-auto  "
+          />
+          <h1 className="text-[12px] font-bold text-center">Exciting Travel</h1>
+          <p className="text-[10px] text-center ">
             Start and explore a wide range of <br /> exciting travel experience.
           </p>
         </div>

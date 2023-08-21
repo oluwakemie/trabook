@@ -154,7 +154,7 @@ const Product1 = () => {
       </div>
 
       <div className="text-center mt-[200px]">
-        <div className="">
+    
           <div className="relative">
             {" "}
             <h1 className="text-[30px] font-bold mb-2">
@@ -165,13 +165,14 @@ const Product1 = () => {
               among hundreds of all-inclusive offers!
             </p>
             <div className="absolute right-[15%] top-0">
-              <img src="/Images/Element.svg" alt="" />
+              {/* <img src="/Images/Element.svg" alt="" /> */}
             </div>
           </div>
-        </div>
-        <div className="relative">
-          <div className="flex gap-8 mt-7 justify-center relative">
-            <div className="relative">
+        
+        <Carousel responsive={responsive}>
+        {/* <div  className="relative " > */}
+          {/* <div className="flex gap-8 mt-7 justify-center relative items-center  "> */}
+            <div className="max-w-[270px]">
               <img
                 src="/Images/Image(2).png"
                 alt=""
@@ -201,7 +202,7 @@ const Product1 = () => {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="max-w-[270px]">
               <img
                 src="/Images/Image(1).png"
                 alt=""
@@ -231,7 +232,7 @@ const Product1 = () => {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="max-w-[270px]">
               <img
                 src="/Images/Image(3).png"
                 alt=""
@@ -261,15 +262,16 @@ const Product1 = () => {
                 </div>
               </div>
             </div>
-          </div>{" "}
-          <div className="flex gap-4 absolute right-2 top-0 ">
+          {/* </div>{" "} */}
+          {/* <div className="flex gap-4 absolute right-2 top-0 ">
             <img src="/Images/Btn-1.svg" alt="" />
             <img src="/Images/Btn-2.svg" alt="" />
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
+        </Carousel>
       </div>
       <div className="/Images/Bg(2).png  mt-[150px] w-full  flex flex-col items-center gap-[150px] md:flex-row  justify-around">
-        <div className=" flex flex-col gap-7 ">
+        <div className=" flex md:flex-col gap-7 ">
           <div>
             <h1 className="font-bold text-[20px] md:text-[30px] leading-tight ">
               What people say{" "}
