@@ -42,18 +42,18 @@ const Blog = () => {
         <img src="/Images/Slider.svg" alt="" />
       </div>
       <div className="flex justify-center ">
-        <div className="w-[600px] bg-[#FA7436] rounded-md flex flex-col items-center md:w-[700px] ">
-          <h1 className="font-bold text-[30px] text-center leading-none py-7 text-white mb-3 ">
-            Subscribe and get exclusive <br /> deals & offer
+        <div className="max-w-[500px] bg-[#FA7436] rounded-md px-2 md:max-w-[700px] ">
+          <h1 className="font-semi-bold lg:font-bold text-[30px] text-center leading-none py-7 text-white mb-3 ">
+            Subscribe and get exclusive deals & offer
           </h1>
-          <div className="w-[500px] max-w-[500px] relative  h-[68px]  px-1 ">
+          <div className=" max-w-[500px] relative  h-[68px]  px-1 ">
            
               {" "}
               <img src="/Images/Group46.svg" alt="" className="w-4 h-[16px] absolute z-10 left-5 top-6" />
               <input type="text" placeholder="Enter your mail" className="text-md text-[#999] pl-10 pr-[30px] w-full py-5  rounded-md focus:border-orange-400   focus:outline-orange-400" />
               <button
                 type="button"
-                className=" w-[120px] py-3 rounded-lg bg-[#FA7436] absolute top-2 right-2 text-white font-bold"
+                className=" w-[120px] py-3 rounded-lg bg-[#FA7436] absolute top-2 right-2 text-white font-semibold"
               >
                 Subscribe
               </button>
