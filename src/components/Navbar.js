@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import {FaTimes} from "react-icons/fa"
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -39,48 +40,52 @@ const Navbar = () => {
           Sign Up
         </button>
       </div>
-      <svg
-        onClick={() => setMenu(!menu)}
-        className="block md:hidden"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M20 6L4 6"
-          stroke="#717171"
-          stroke-width="1.5"
-          stroke-linecap="round"
-        />
-        <path
-          d="M20 12L4 12"
-          stroke="#717171"
-          stroke-width="1.5"
-          stroke-linecap="round"
-        />
-        <path
-          d="M20 18H4"
-          stroke="#717171"
-          stroke-width="1.5"
-          stroke-linecap="round"
-        />
-      </svg>
+      {menu ? (
+        <FaTimes onClick={() => setMenu(!menu)} />
+      ) : (
+        <svg
+          onClick={() => setMenu(!menu)}
+          className="block md:hidden"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20 6L4 6"
+            stroke="#717171"
+            stroke-width="1.5"
+            stroke-linecap="round"
+          />
+          <path
+            d="M20 12L4 12"
+            stroke="#717171"
+            stroke-width="1.5"
+            stroke-linecap="round"
+          />
+          <path
+            d="M20 18H4"
+            stroke="#717171"
+            stroke-width="1.5"
+            stroke-linecap="round"
+          />
+        </svg>
+      )}
+
       {menu ? (
         <motion.div
-        initial={{ x: -500 }}
-        animate={{ x: 0 }}
+          initial={{ x: -500 }}
+          animate={{ x: 0 }}
           transition={{
             duration: 2.0,
             type: "spring",
             stiffness: 260,
             damping: 20,
           }}
-          className="absolute top-[56px] right-0 min-w-[190px] md:hidden  bg-[#FA7436] "   
-
+          className="absolute top-[56px] right-0 min-w-[190px] md:hidden  bg-[#FA7436] "
         >
-          <ul className="md:flex gap-7 lg:flex px-8 py-5 items-center justify-center text-white ">
+          <ul className="md:flex gap-7 lg:flex px-8 py-5 items-center justify-center text-white">
             <Link to="/">
               <li>Home</li>
             </Link>
